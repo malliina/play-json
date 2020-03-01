@@ -127,6 +127,7 @@ lazy val commonSettings = Def.settings(
     "-no-java-comments",
   ),
   organization := "com.malliina",
+  sonatypeProfileName := "com.malliina",
   version := "2.8.1"
 )
 
