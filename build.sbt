@@ -126,7 +126,8 @@ lazy val commonSettings = Def.settings(
     // Work around 2.12 bug which prevents javadoc in nested java classes from compiling.
     "-no-java-comments",
   ),
-  organization := "com.malliina"
+  organization := "com.malliina",
+  version := "2.8.1"
 )
 
 lazy val root = project
